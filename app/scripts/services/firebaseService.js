@@ -4,11 +4,11 @@ angular.module('recetasApp')
   .factory('Fire', function (firebase) {
 
     var firebaseConfig= {
-      apiKey: 'AIzaSyCcUCRA3ae4PjQ4olgDqhO-WpwKGh8hr7I',
-      authDomain: 'resetasapp.firebaseapp.com',
-      databaseURL: 'https://resetasapp.firebaseio.com',
-      storageBucket: 'resetasapp.appspot.com',
-      messagingSenderId: '642728759157'
+      apiKey: 'AIzaSyA5luPF4xkrkcSkwHKbjAO1_jVnjQMhHUI',
+      authDomain: 'recetapan-bb28d.firebaseapp.com',
+      databaseURL: 'https://recetapan-bb28d.firebaseio.com',
+      storageBucket: 'recetapan-bb28d.appspot.com',
+      messagingSenderId: '979066234648'
     };
 
     var firebaseApp = firebase.initializeApp(firebaseConfig);
